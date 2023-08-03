@@ -1,0 +1,8 @@
+/* hidden on default */
+div#popup { display: none; }
+
+/* use a media query to filter small devices */
+@media only screen and (max-device-width:480px) {
+    /* show the popup */
+    div#popup { display: block; }
+}
